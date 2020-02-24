@@ -1,0 +1,12 @@
+name: kidneycellexplorer
+title: kidneycellexplorer
+username:
+account: cello
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 880532
+bundleId: 2313692
+url: https://cello.shinyapps.io/kidneycellexplorer/
+when: 1565660284.42975
+asMultiple: FALSE
+asStatic: FALSE

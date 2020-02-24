@@ -1,0 +1,12 @@
+name: kidney
+title: kidney
+username:
+account: cello
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 681563
+bundleId: 2027406
+url: https://cello.shinyapps.io/kidney/
+when: 1555880906.90908
+asMultiple: FALSE
+asStatic: FALSE
