@@ -150,7 +150,8 @@ shinyUI(
                 )
             ),
             br(),
-            HTML("<li>Source code for Kidney Cell Explorer has been deposited to <a href=https://github.com/qinzhu/kidneycellexplorer>https://github.com/qinzhu/kidneycellexplorer</li></p>"),
+            HTML("<li>Cite Kidney Cell Explorer: Ransick, A., Lindström, N.O., Liu, J., Zhu, Q., Guo, J.J., Alvarado, G.F., Kim, A.D., Black, H.G., Kim, J. and McMahon, A.P., 2019. Single-Cell Profiling Reveals Sex, Lineage, and Regional Diversity in the Mouse Kidney. Developmental cell, 51(3), pp.399-413.</li>"),
+            HTML("<li>Source code for Kidney Cell Explorer has been deposited to <a href=https://github.com/qinzhu/kidneycellexplorer>https://github.com/qinzhu/kidneycellexplorer</li>"),
             # Sidebar with a slider input for number of bins 
             
             br(),
