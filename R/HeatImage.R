@@ -292,10 +292,10 @@ heat_strip <- function(gexpr = NULL, vlim = c(0, max(quantile(gexpr,1), .1)), pa
     min_y <- 0
     
     # First assign correct position to the numbers
-    strip_order <- c('1', '2', '3', '4', '5', '6', '7', '8', '9A', '9B', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19','22', '25','27','21','24', '20',  '23',  '26',  '28', '29', '30', '31', '32')
-    gexpr <- gexpr[,strip_order]
+    strip_order <- c('1', '2', '3', '4', '5', '6', '7', '8', '9A', '9B', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19','20','21','22', '23', '24', '25','26', '27', '28', '29', '30', '31', '32')
+    gexpr <- gexpr[,strip_order, drop=F]
     bin_names <- colnames(gexpr)
-    
+    #assign("gexpr", gexpr, env = .GlobalEnv)
     bin_tbl <- data.frame(matrix(ncol = ncol(gexpr), nrow = 4), row.names = c("x_1","y_1","x_2","y_2"))
     colnames(bin_tbl) <- colnames(gexpr)
     y_adj_min <- .01

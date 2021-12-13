@@ -273,8 +273,8 @@ shinyServer(function(input, output, session) {
             img(src ="stats_option.png", width = "60%"),
             tags$br(),
             tags$hr(),
-            tags$p("Please kindly cite us if you used this tool for your study: "),
-            tags$em("Ransick, A., Lindström, N.O., Liu, J., Qin, Z., Guo, J.J., Alvarado, G.F., Kim, A.D., Black, H.G., Kim, J. and McMahon, A.P., 2019. Single Cell Profiling Reveals Sex, Lineage and Regional Diversity in the Mouse Kidney. bioRxiv, p.673335.")
+            tags$p("If showing views of data from the website in any published form (grant, paper, presentation), one should include a citation and link to the website in the Figure legend: data from KidneyCellExplorer (https://cello.shinyapps.io/kidneycellexplorer/; Ransick et al., 2019) "),
+            tags$em("Ransick, A., Lindström, N.O., Liu, J., Zhu, Q., Guo, J.J., Alvarado, G.F., Kim, A.D., Black, H.G., Kim, J. and McMahon, A.P., 2019. Single-Cell Profiling Reveals Sex, Lineage, and Regional Diversity in the Mouse Kidney. Developmental cell, 51(3), pp.399-413.")
         )
 
     ))
@@ -376,7 +376,7 @@ shinyServer(function(input, output, session) {
         min_y <- 0
         
         # First assign correct position to the numbers
-        strip_order <- c('1', '2', '3', '4', '5', '6', '7', '8', '9A', '9B', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19','22', '25','27','21','24', '20',  '23',  '26',  '28', '29', '30', '31', '32')
+        strip_order <- c('1', '2', '3', '4', '5', '6', '7', '8', '9A', '9B', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19','20','21','22', '23', '24', '25','26', '27', '28', '29', '30', '31', '32')
         bin_names <- strip_order
         bin_tbl <- data.frame(matrix(ncol = length(strip_order), nrow = 4), row.names = c("x_1","y_1","x_2","y_2"))
         colnames(bin_tbl) <- strip_order

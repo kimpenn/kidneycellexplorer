@@ -6,7 +6,8 @@ toJSON <- shiny:::toJSON
 attachDependencies <- htmltools:::attachDependencies
 choicesWithNames <- shiny:::choicesWithNames
 selectOptions <- shiny:::selectOptions
-controlLabel <- shiny:::controlLabel
+#controlLabel <- shiny:::controlLabel
+controlLabel <- shiny:::shinyInputLabel
 htmlEscape <- htmltools:::htmlEscape
 
 selectizeInput2 <- function (inputId, ..., options = NULL, width = NULL) 
